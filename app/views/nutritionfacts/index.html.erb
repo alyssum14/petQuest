@@ -1,0 +1,35 @@
+<h1>nutritionFact list here:</h1>
+<%= link_to 'Add nutritionfacts', new_nutritionfact_path %>
+<table>
+  <tr>
+
+      <th>nutritionfact.foodname</th>
+      <th>nutritionfact.weight</th>
+      <th>nutritionfact.edible</th>
+      <th>nutritionfact.energy</th>
+      <th>nutritionfact.protein</th>
+      <th>nutritionfact.fat</th>
+      <th>nutritionfact.cho</th>
+      <th>nutritionfact.dietaryfiber</th>
+      <th>nutritionfact.ash</th>
+
+    <th colspan="1"></th>
+  </tr>
+ 
+  <% @nutritionfacts.each do |nutritionfact| %>
+    <tr>
+
+      <td><%= nutritionfact.foodname %></td>
+      <td><%= nutritionfact.weight %></td>
+      <td><%= nutritionfact.edible %></td>
+      <td><%= nutritionfact.energy %></td>
+      <td><%= nutritionfact.protein %></td>
+      <td><%= nutritionfact.fat %></td>
+      <td><%= nutritionfact.cho %></td>
+      <td><%= nutritionfact.dietaryfiber %></td>
+      <td><%= nutritionfact.ash %></td>
+
+      <td><%= link_to 'Add into Recipe', recipes_path%></td>
+    </tr>
+  <% end %>
+</table>

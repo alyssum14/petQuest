@@ -1,0 +1,42 @@
+<div class='container-fluid'><h1>New Food</h1>
+<div style="width:60px" class='col-md-1 col-md-offset-4' id="ctn2">
+  <%= form_for :food, url: foods_path do |f| %>
+    <p>
+      <%= f.label :name %><br>
+      <%= f.text_field :name %>
+    </p>
+   
+    <p>
+      <%= f.label :description %><br>
+      <%= f.text_area :description %>
+    </p>
+
+    <p>
+      <%= f.label :referencePrice %><br>
+      <%= f.text_area :referencePrice %>
+    </p>
+    
+    <p>
+      <%= f.label :ediblePercentage %><br>
+      <%= f.text_area :ediblePercentage %>
+    </p>
+   
+    <p>
+      <%= f.label :cookMethod %><br>
+      <%= f.text_area :cookMethod %>
+    </p>
+
+    <p>
+      <%= f.label :foodCategory %><br>
+      <%= f.text_area :foodCategory %>
+    </p>
+
+    <p>
+      <%= f.submit nil, :class => 'btn2' %>
+    </p>
+  <% end %>
+
+
+<a href="http://localhost:3000/foods" class="btn2">Back</a>
+</div> 
+</div>

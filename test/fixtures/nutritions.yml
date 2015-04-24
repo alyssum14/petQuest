@@ -1,0 +1,61 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  category: MyString
+  foodname: 
+  weight: 9.99
+  edible: 9.99
+  energy: 9.99
+  protein: 9.99
+  fat: 9.99
+  cho: 9.99
+  dietaryfiber: 9.99
+  ash: 9.99
+  cholesterol: 9.99
+  vitaminA: 9.99
+  retinol: 9.99
+  vitaminE: 9.99
+  vitaminB1: 9.99
+  vitaminB2: 9.99
+  vitaminB3: 9.99
+  calcium: 9.99
+  phoshorous: 9.99
+  potassium: 9.99
+  sodium: 9.99
+  magnesium: 9.99
+  iron: 9.99
+  zinc: 9.99
+  selenium: 9.99
+  copper: 9.99
+  manganese: 9.99
+  food_id: 1
+
+two:
+  category: MyString
+  foodname: 
+  weight: 9.99
+  edible: 9.99
+  energy: 9.99
+  protein: 9.99
+  fat: 9.99
+  cho: 9.99
+  dietaryfiber: 9.99
+  ash: 9.99
+  cholesterol: 9.99
+  vitaminA: 9.99
+  retinol: 9.99
+  vitaminE: 9.99
+  vitaminB1: 9.99
+  vitaminB2: 9.99
+  vitaminB3: 9.99
+  calcium: 9.99
+  phoshorous: 9.99
+  potassium: 9.99
+  sodium: 9.99
+  magnesium: 9.99
+  iron: 9.99
+  zinc: 9.99
+  selenium: 9.99
+  copper: 9.99
+  manganese: 9.99
+  food_id: 1
